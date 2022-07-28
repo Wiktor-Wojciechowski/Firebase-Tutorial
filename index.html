@@ -30,10 +30,16 @@
 </head>
 
 <body>
+  <h1 id="title">Hello Firebase World</h1>
+  <button onclick="googleLogin()">
+    Login With Google
+  </button>
+  <input onchange="updatePost(event)">
 
-  <script>
-
-  </script>
+  <input type="file" onchange="uploadFile(this.files)">
+  <hr>
+  <img id="imgUpload" src="" width="100vw">
+  <script src="app.js"></script>
 </body>
 
 </html>
